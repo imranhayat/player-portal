@@ -1,0 +1,8 @@
++ @angular-devkit/schematics@9.1.1
+added 16 packages from 4 contributors, removed 3 packages, updated 2 packages, moved 2 packages and audited 15867 packages in 21.747s
+
+41 packages are looking for funding
+  run `npm fund` for details
+
+found 2 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
