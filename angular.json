@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "argon-design-system-angular": {
+    "player-portal": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/argon-design-system-angular",
+            "outputPath": "dist/player-portal",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,7 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/scss/argon.scss"
+              "src/assets/scss/player-portal.scss"
             ],
             "scripts": []
           },
@@ -51,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "argon-design-system-angular:build"
+            "browserTarget": "player-portal:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "argon-design-system-angular:build:production"
+              "browserTarget": "player-portal:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "argon-design-system-angular:build"
+            "browserTarget": "player-portal:build"
           }
         },
         "test": {
@@ -96,7 +96,7 @@
         }
       }
     },
-    "argon-design-system-angular-e2e": {
+    "player-portal-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -104,11 +104,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "argon-design-system-angular:serve"
+            "devServerTarget": "player-portal:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "argon-design-system-angular:serve:production"
+              "devServerTarget": "player-portal:serve:production"
             }
           }
         },
@@ -124,7 +124,7 @@
       }
     }
   },
-  "defaultProject": "argon-design-system-angular",
+  "defaultProject": "player-portal",
   "cli": {
     "analytics": false
   }
